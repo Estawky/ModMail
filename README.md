@@ -1,1 +1,1 @@
-# Estawky
+# Lisanslıdır ÇALMAYINIZ!
