@@ -1,0 +1,23 @@
+{
+  "name": "modmail",
+  "version": "0.0.1",
+  "description": "Türkçe ModMail bot Estawky <3 Roffly",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estawky/ModMail.git"
+  },
+  "author": "Estawky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estawky/ModMail/issues"
+  },
+  "homepage": "https://github.com/Estawky/ModMail#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "quick.db": "^7.1.3"
+  }
+}
