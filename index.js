@@ -2,13 +2,13 @@ const Discord = require("discord.js");
 const db = require("quick.db");
 const table = new db.table("Tickets");
 
-let guildid = ""
-let log = ""
-let prefix = ""
-let modroles = ""
-let botrole = ""
-let ticketCategory = ""
-let token = ""
+let guildid = "" // sunucu id
+let log = "" // log kanalı id
+let prefix = "" // prefix
+let modroles = "" // moderatör rolü
+let botrole = "" //bot rolü
+let ticketCategory = "" // ticket kategori id
+let token = "" //botunuz tokeni
 
 const client = new Discord.Client();
 
@@ -25,7 +25,7 @@ client.on("message", async message => {
     if(message.author.bot) return;
     if(message.content.includes("@everyone") || message.content.includes("@here")) return message.author.send("everyone yada here den bahsemedzsin!")
     let active = await dbTable.get(`support_${message.author.id}`)
-    let guild = client.guilds.cache.get("859841374219927562");
+    let guild = client.guilds.cache.get(guildid);
     let channel, found = true;
     
     let user = await dbTable.get(`isBlocked${message.author.id}`);
