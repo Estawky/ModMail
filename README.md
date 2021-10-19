@@ -6,4 +6,4 @@
 
 ### Estawky ♥ Roffly
 - Botun Kurulum Videosu Çekilecektir!
-- Yıldız Atıp Kanalıma Abone OLmayı Unutmayın ♥ 
+- Yıldız Atıp Kanalıma Abone Olmayı Unutmayın ♥ 
