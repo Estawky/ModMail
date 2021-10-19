@@ -15,7 +15,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log(`Başarıyla Aktif Edildi! ${client.user.tag}.`)
   console.log(`Sunucu ID: ${guildid}\nLog Kanalı ID: ${log}\nPrefix: ${prefix}`)
-  client.user.setActivity(`Moderatörlere Ulaşmak İçin Dm Atın! || ${prefix}help`)
+  client.user.setActivity(`Moderatörlere Ulaşmak İçin Dm Atın! || ${prefix}yardım`)
 })
 
 client.on("message", async message => {
@@ -25,7 +25,7 @@ client.on("message", async message => {
     if(message.author.bot) return;
     if(message.content.includes("@everyone") || message.content.includes("@here")) return message.author.send("everyone yada here den bahsemedzsin!")
     let active = await dbTable.get(`support_${message.author.id}`)
-    let guild = client.guilds.cache.get(guildid);
+    let guild = client.guilds.cache.get("SUNUCU İD"); // BUNU GİRMEYİ UNUTMAYIN!!!!!!
     let channel, found = true;
     
     let user = await dbTable.get(`isBlocked${message.author.id}`);
@@ -64,7 +64,7 @@ client.on("message", async message => {
   .setTimestamp()
   
 	
-      if(config.logs){
+      if(log){
 	client.channels.cache.get(log).send({embed: newTicket})
       }
       const newChannel = new Discord.MessageEmbed()
