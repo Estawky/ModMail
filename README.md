@@ -7,4 +7,4 @@
 ### Estawky ♥ Roffly
 - Yıldız Atıp Kanalıma Abone Olmayı Unutmayın ♥ 
 - https://youtu.be/KgC523wPq3o 
- * Botun Tanıtımı ve Kurulum Videosu!
+  * Botun Tanıtımı ve Kurulum Videosu!
