@@ -15,7 +15,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log(`Başarıyla Aktif Edildi! ${client.user.tag}.`)
   console.log(`Sunucu ID: ${guildid}\nLog Kanalı ID: ${log}\nPrefix: ${prefix}`)
-  client.user.setActivity(`Moderatörlere Ulaşmak İçin Dm Atın! || ${prefix}yardım`)
+  client.user.setActivity(`Estawky ModMail Bot || ${prefix}yardım`)
 })
 
 client.on("message", async message => {
