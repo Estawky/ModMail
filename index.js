@@ -220,7 +220,7 @@ client.on("message", async message => {
 		.addField("Kanal", `<#${message.channel.id}>`, true)
 		.addField("Sebep", reason, true)
     .setTimestamp()
-	  if(config.logs){
+	  if(log){
 	    client.channels.cache.get(log).send({embed: blocked})
 	  }
       let isBlock = await table.get(`isBlocked${support.targetID}`);
