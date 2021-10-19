@@ -5,5 +5,6 @@
 ### [Youtube Channel](https://www.youtube.com/c/Estawky/) 
 
 ### Estawky ♥ Roffly
-- Botun Kurulum Videosu Çekilecektir!
 - Yıldız Atıp Kanalıma Abone Olmayı Unutmayın ♥ 
+- https://youtu.be/KgC523wPq3o 
+ * Botun Tanıtımı ve Kurulum Videosu!
